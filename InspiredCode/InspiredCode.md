@@ -71,7 +71,7 @@ This example that my source uses containing global array variables declared at t
 
 > _Screen shot inspired code from [HTML Goodies](https://www.htmlgoodies.com/javascript/basic-chatbot-in-javascript/)_
 
-### Implenetation
+### Implementation
 
 In my app I followed the theme of using global variables to store strings which I could refer to later on in my app. I ended up using an object structure which meant all my chatbot responses were included in the object properties. However I did use the array variable to store all my potential end result answers. Because the array was at the top level this means at any stage the chatbot could’ve responded with any of the possible answers contained in the array. I also decided to include possible user answers in OR string variables meaning the user could respond with “yes” “yep” “yeah” etc at any point in the app and the response would be considered as valid this prevents repeated code throughout the app.
 
@@ -96,3 +96,84 @@ let name;
 ```
 
 > _This code is directly from my chatbot repository_
+
+## 2. Exploring ReactJS Hooks: `useState` and `useEffect`
+
+**Source:** [codedamn - Understanding useState and useEffect Hooks in ReactJS](https://codedamn.com/news/reactjs/usestate-and-useeffect-hooks)
+
+### Overview
+
+My fascination with ReactJS, particularly its JSX implementation for HTML-looking components, led me to delve into React-specific functionalities. Among these, the `useEffect` and `useState` hooks caught my attention. The `useEffect` function intrigued me for its role in managing side effects within the app. Contrary to a common misconception, it extends beyond the initial app loading, enabling execution based on various conditions throughout the component's lifecycle. This flexibility proves beneficial for tasks like data fetching during mounting or cleanup during unmounting. Additionally, `useState` facilitates the management of local state in functional components, triggering re-renders upon state updates. Together, `useEffect` and `useState` provide an efficient and controlled approach to state and side effect management in React applications.
+
+### Findings
+
+In the provided resource, a simple example demonstrates the usage of the `useEffect` and `useState` hooks to `fetch` and store data. The example focuses on a getUsers function with a `fetch` request inside a `useEffect`. Upon receiving data, the `useState `hook is employed to store the users' data within a users state using setUsers. A similar approach was adopted in my online shop app, where I utilised the same method to `fetch` and store product data.
+
+![Website info screenshot](images/Basic-usage-of-useEffect.png)
+
+> \_Screen shot inspired code from [codedamn](https://codedamn.com/news/reactjs/usestate-and-useeffect-hooks)
+
+### Implementation
+
+In my online shop app I used the same method to get my products by using a `fetch` request inside the `useEffect` and then using the `useStat`e hook to store that data
+
+```javascript
+getProducts.js;
+
+const getProducts = async () => {
+  // Use the following URL for your fetch request
+  const url = `${process.env.REACT_APP_API_URL}/products`;
+
+  // Fetch products and prices from the Stripe API
+  const response = await fetch(url);
+  console.log(response);
+  const products = await response.json();
+  console.log(products);
+  return products;
+};
+
+export { getProducts };
+
+App.js;
+
+// The function that makes the fetch request to the Products API
+import { getProducts } from "./services/getProducts";
+
+function App() {
+  // use the products variable to read all of your products
+  // and display them on your page
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    const loadData = async () => {
+      const products = await getProducts();
+      //console.log(products);
+      setProducts(products);
+    };
+    loadData();
+  }, []);
+
+  return (
+    <div className="container">
+      {products.map((product) => (
+        <div key={product.id} className="product-grid">
+          <img src={product.images} alt={product.name} />
+          <h2>{product.name}</h2>
+          <p className="description">{product.description}</p>
+          <p className="price">${product.prices[0].unit_amount / 100}</p>
+          {/* I did have the following code in place "<button onClick={checkout(product.prices[0].id)}>Buy Now</button>" However the function was always running immediately, so I used callback-function which I found online, however I still don't understand why my first solution didn't work*/}
+          <button
+            onClick={() => {
+              checkout(product.prices[0].id);
+            }}
+          >
+            Buy Now
+          </button>
+        </div>
+      ))}
+    </div>
+  );
+}
+```
+
+> _This code is directly from my keyme online shop repository_
