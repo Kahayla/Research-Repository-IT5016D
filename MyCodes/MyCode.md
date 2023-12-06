@@ -25,7 +25,10 @@ Through the creation of Archie, I honed my skills in **JavaScript**, **React**, 
 
 ## Keyme Online Shop Project
 
+![Keyme Shop](images/Keyme-shop.png)
+
 **To see the Keyme SHop Repository click [here](https://github.com/Developers-Institute-Classrooms/01-project---online-shop-individual-Kahayla)**
+
 Deployed [Website](https://react-online-shop-keyme-shop.onrender.com)
 
 Welcome to Keyme Shop, where my journey into the world of JavaScript, and React comes to life. This project represents my original thoughts and ideas into creating an online shop, an endeavor that allowed me to put my stamp on every aspect, from design to implementation.
@@ -37,7 +40,7 @@ Each keyboard and item in Keyme Shop has a story, and I had the privilege of nam
 ### Features
 
 - **Responsive Website:** Enjoy a seamless shopping experience across mobile, tablet, and desktop screens.
-- **Built using ReactJS:**Leveraging the power of ReactJS for a dynamic and engaging user interface.
+- **Built using ReactJS:** Leveraging the power of ReactJS for a dynamic and engaging user interface.
 - **Stripe Integration:** Effortless product management and secure checkout facilitated by the Stripe payment processing network
 
 ### Learning Journey
