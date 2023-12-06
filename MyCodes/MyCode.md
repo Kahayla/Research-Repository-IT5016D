@@ -2,7 +2,15 @@
 
 Here you will find a list of projects and exercise repository links I have done during my journey with coding.
 
-## Movie Recommender Chat Bot (Archie)
+### Overview
+
+1. Project: Movie Recommender Chat Bot (Archie)
+2. Project: Keyme Online Shop
+3. Project: Grade Scale Calculator
+4. Project: LiftLog Weightifing App
+5. Project: Help Desk Tciketing System Prototype
+
+## Project: Movie Recommender Chat Bot (Archie)
 
 ![Keyme Shop](images/Movie-Chatbot.png)
 
@@ -26,7 +34,7 @@ Archie is not your ordinary chat bot; it's your virtual movie buddy! The bot kic
 
 Through the creation of Archie, I honed my skills in **JavaScript**, **React**, and the art of crafting engaging user experiences. This project reflects my growth as a developer, capturing the essence of early learning, experimentation, and the joy of creating something interactive.
 
-## Keyme Online Shop Project
+## Project: Keyme Online Shop
 
 ![Keyme Shop](images/Keyme-shop.png)
 
@@ -52,11 +60,11 @@ Keyme Shop is a reflection of my journey at Developers Institute. This project a
 
 The process of crafting Keyme Shop taught me the importance of attention to detail, the significance of user experience, and the art of blending aesthetics with functionality. Building an online shop from scratch was not just a technical endeavor; it was a journey of creativity, problem-solving, and continuous learning.
 
-## Grade Scale Calculator
+## Project: Grade Scale Calculator
 
 ![Grade Scale Calculator](images/Grade-Calculator.png)
 
-**To see the Keyme Shop Repository click [here](https://github.com/Developers-Institute-Classrooms/03-project---grade-calculator-Kahayla)**
+**To see the Grade Scale Caluclator Repository click [here](https://github.com/Developers-Institute-Classrooms/03-project---grade-calculator-Kahayla)**
 
 Welcome to My Grade Calculator, a pivotal project in my coding journey during my time with Developers Institute. This personalised endeavor allowed me to explore the intricacies of building a grade calculator from scratch, showcasing my growing expertise in JavaScript, React, API integration, and Docker.
 
@@ -64,20 +72,73 @@ Welcome to My Grade Calculator, a pivotal project in my coding journey during my
 
 1. **User-Friendly Design**
 
-- Crafted wireframes and designed the app interface, ensuring an intuitive and aesthetically pleasing user experience.
-- React components like Header and GradesPage contribute to a clean and structured frontend.
+   - Crafted wireframes and designed the app interface, ensuring an intuitive and aesthetically pleasing user experience.
+   - React components like Header and GradesPage contribute to a clean and structured frontend.
 
 2. **Dynamic Grade Scale**
 
-- Utilized an OpenAPI specification to define a robust API structure for retrieving the latest grade scale data.
-- The getGradeScale function in the backend ensures accurate and up-to-date information for users.
+   - Utilized an OpenAPI specification to define a robust API structure for retrieving the latest grade scale data.
+   - The getGradeScale function in the backend ensures accurate and up-to-date information for users.
 
 3. **Technological Toolbox**
 
-- Built the core of the application with JavaScript and React, blending functionality with a polished look.
-- Employed a PostgreSQL database managed through the `db.js` module, enhancing the backend capabilities.
-- Dockerized the application, streamlining the deployment process and ensuring consistency across different environments.
+   - Built the core of the application with JavaScript and React, blending functionality with a polished look.
+   - Employed a PostgreSQL database managed through the `db.js` module, enhancing the backend capabilities.
+   - Dockerized the application, streamlining the deployment process and ensuring consistency across different environments.
 
 ### Learning Journey:
 
 In the process of creating My Grade Calculator, I embarked on a multifaceted learning journey. From infusing a personal touch into the design, where wireframes were meticulously crafted, and the fusion of functionality and aesthetics was explored, to mastering React by developing interactive user interfaces, each step brought hands-on experience. Delving into API integration, I defined an OpenAPI specification and implemented the `getGradeScale` function, demonstrating proficiency in API design. Managing a PostgreSQL database provided insights into backend data intricacies, while Dockerisation streamlined deployment for consistent and reliable application scaling. Amidst these technical pursuits, I honed problem-solving skills, tackling challenges to ensure a seamless user experience, and making design decisions that overcame obstacles in the development process. This journey symbolises not just coding milestones but a comprehensive growth in skill, adaptability, and creativity.
+
+## Project: LiftLog Weightifing App
+
+![LiftLog App](images/LiftLog-AddSession-Page.png)
+
+**To see the Lift Log App Repository click [here](https://github.com/Kahayla/Lift-Log-v3--Assignment-3-20232040)**
+
+LiftLog, my capstone project at Whitecliffe, stands as a testament to my journey in designing and developing a user-friendly app tailored for gym lovers. Serving as a solution for those passionate about fitness, LiftLog simplifies the weight logging process, ensuring a seamless experience for users to record their workout sessions.
+
+### Key Features
+
+1. **Session Logging**
+   - Record detailed workout sessions, capturing essential information like date, exercise, reps, sets, and weight.
+   - Empowers users to track their progress and maintain a comprehensive log of their fitness journey.
+2. **Exercise Options**
+   - Access a diverse range of pre-defined exercises, streamlining the process of building a workout plan.
+   - Personalize your fitness routine by adding custom exercises that align with individual fitness goals.
+3. **View Session History**
+   - Navigate and track your workout history effortlessly.
+   - Edit sessions to reflect accurate progress over time, ensuring a dynamic and adaptable fitness log.
+4. **User-Friendly Interface**
+   - LiftLog prioritizes simplicity and ease of use, providing an intuitive interface for quick and efficient session logging.
+   - Streamlined navigation ensures that users can focus on their workout rather than grappling with complex app mechanics.
+
+### Learning Journey
+
+Embarking on the development of LiftLog was a comprehensive journey that spanned planning, solution design, and meticulous attention to client needs. I navigated through the intricacies of creating mockups and wireframes, ensuring that the envisioned app aligned seamlessly with the expectations of gym enthusiasts. Overcoming challenges in client problems and solution design, I honed my skills in translating conceptual ideas into a tangible and functional application.
+
+This capstone project stands as my magnum opus at Whitecliffe, representing not only technical proficiency but also a deep understanding of user experience and problem-solving. As I proudly present LiftLog, I celebrate the fusion of creativity, design thinking, and coding expertise, all aimed at empowering individuals on their fitness journeys.
+
+## Project: Help Desk Tciketing System Prototype
+
+![Helpdesk tciketing system prototype](images/Helpdesk-system.png)
+
+**To see the Helpdesk Tciket System Prototype Repository click [here](https://github.com/Kahayla/Help-Desk-Ticketing-System-Prototype)**
+
+The Help Desk Ticket Prototype System, developed as my Software Development project at WhiteCliffe, revolutionises support ticket management with a console-based interface. This innovative solution simplifies the process of logging and handling tickets, making it an ideal tool for IT professionals and users alike. Utilising Python for the first time, this project focuses on functionality, ensuring an efficient and straightforward user experience through the command line.
+
+### Key Features
+
+1. **Ticket Submission and Management**
+   - Log new tickets seamlessly, providing essential details such as name, email, and description.
+   - Update ticket status, respond to user queries, and manage the entire ticket lifecycle.
+2. **User-Friendly Command Line Interface**
+   - Crafted a console-based interface that prioritizes simplicity and ease of use.
+   - Intuitive commands and responses make ticket management efficient without the need for a graphical interface.
+3. **Ticket Statistics and Dashboard**
+   - Track and analyze ticket statistics, including total tickets, resolved tickets, and those awaiting responses.
+   - Access a comprehensive dashboard for an overview of the entire ticket system.
+
+### Learning Journey
+
+Embarking on my Python journey, this project served as a gateway to understanding Python's syntax and its application in a real-world scenario. From creating a Tickets class to implementing features like ticket submission, response handling, and status updates, every step was a learning experience. This console-based application highlights not only technical growth but also the ability to provide practical solutions tailored to the unique challenges of help desk ticket management.
