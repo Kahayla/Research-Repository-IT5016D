@@ -1,4 +1,4 @@
-### My Codes
+# My Codes
 
 Here you will find a list of projects and exercise repository links I have done during my journey with coding.
 
@@ -11,7 +11,7 @@ This project holds a special place in my coding journey as it marks one of my in
 
 As a newcomer to the world of development, this project allowed me to grasp fundamental concepts while experimenting with real-world applications. Through the process of creating Archie, I delved into JavaScript and React, gaining insights into the dynamics of state management and user interaction within a chat bot environment.
 
-# Features
+### Features
 
 Archie is not your ordinary chat bot; it's your virtual movie buddy! The bot kicks off the conversation by asking for your name, making the interaction personalized from the start. But that's just the beginning – Archie guides users through a series of questions to understand their movie preferences and then cleverly suggests the perfect animated movie.
 
@@ -19,7 +19,7 @@ Archie is not your ordinary chat bot; it's your virtual movie buddy! The bot kic
 - **A Touch of Humor:** Expect a dash of humor in Archie's responses, making the movie selection process entertaining.
 - **Random Recommendations:** For the adventurous souls, Archie can surprise you with a random movie suggestion upon request.
 
-# Learning Experience
+### Learning Experience
 
 Through the creation of Archie, I honed my skills in **JavaScript**, **React**, and the art of crafting engaging user experiences. This project reflects my growth as a developer, capturing the essence of early learning, experimentation, and the joy of creating something interactive.
 
@@ -34,13 +34,13 @@ As the architect of Keyme Shop, I took charge of crafting wireframes and designi
 
 Each keyboard and item in Keyme Shop has a story, and I had the privilege of naming them, selecting items that resonated with me, and orchestrating the entire shopping experience. This isn't just a project; it's a canvas where I painted my passion for technology and design, breathing life into every keystroke.
 
-# Features
+### Features
 
-- _Responsive Website:_ Enjoy a seamless shopping experience across mobile, tablet, and desktop screens.
-- _Built using ReactJS:_ Leveraging the power of ReactJS for a dynamic and engaging user interface.
-- _Stripe Integration:_ Effortless product management and secure checkout facilitated by the Stripe payment processing network
+- **Responsive Website:** Enjoy a seamless shopping experience across mobile, tablet, and desktop screens.
+- **Built using ReactJS:**Leveraging the power of ReactJS for a dynamic and engaging user interface.
+- **Stripe Integration:** Effortless product management and secure checkout facilitated by the Stripe payment processing network
 
-# Learning Journey
+### Learning Journey
 
 Keyme Shop is a reflection of my journey at Developers Institute. This project allowed me to delve into the world of e-commerce, building my own online shop from the ground up. Through its development, I gained invaluable experience in utilizing ReactJS for a responsive and interactive front-end, integrating secure payment processing with Stripe, and managing APIs with Begin.
 
