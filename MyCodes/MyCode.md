@@ -4,7 +4,10 @@ Here you will find a list of projects and exercise repository links I have done 
 
 ## Movie Recommender Chat Bot (Archie)
 
+![Keyme Shop](images/Movie-Chatbot.png)
+
 **To see the Chatbot Repository click [here](https://github.com/Developers-Institute-Classrooms/01-project---build-a-chatbot-Kahayla)**
+
 Deployed [Website](https://build-a-chatbot-t46u.onrender.com)
 
 This project holds a special place in my coding journey as it marks one of my initial endeavors during my time with Developers Institute. Created using the expressive power of JavaScript and the React framework, the Animated Movie Recommender Chat Bot, fondly known as Archie, is more than just code – it's a delightful exploration into interactive programming.
@@ -27,7 +30,7 @@ Through the creation of Archie, I honed my skills in **JavaScript**, **React**, 
 
 ![Keyme Shop](images/Keyme-shop.png)
 
-**To see the Keyme SHop Repository click [here](https://github.com/Developers-Institute-Classrooms/01-project---online-shop-individual-Kahayla)**
+**To see the Keyme Shop Repository click [here](https://github.com/Developers-Institute-Classrooms/01-project---online-shop-individual-Kahayla)**
 
 Deployed [Website](https://react-online-shop-keyme-shop.onrender.com)
 
@@ -48,3 +51,33 @@ Each keyboard and item in Keyme Shop has a story, and I had the privilege of nam
 Keyme Shop is a reflection of my journey at Developers Institute. This project allowed me to delve into the world of e-commerce, building my own online shop from the ground up. Through its development, I gained invaluable experience in utilizing ReactJS for a responsive and interactive front-end, integrating secure payment processing with Stripe, and managing APIs with Begin.
 
 The process of crafting Keyme Shop taught me the importance of attention to detail, the significance of user experience, and the art of blending aesthetics with functionality. Building an online shop from scratch was not just a technical endeavor; it was a journey of creativity, problem-solving, and continuous learning.
+
+## Grade Scale Calculator
+
+![Grade Scale Calculator](images/Grade-Calculator.png)
+
+**To see the Keyme Shop Repository click [here](https://github.com/Developers-Institute-Classrooms/03-project---grade-calculator-Kahayla)**
+
+Welcome to My Grade Calculator, a pivotal project in my coding journey during my time with Developers Institute. This personalised endeavor allowed me to explore the intricacies of building a grade calculator from scratch, showcasing my growing expertise in JavaScript, React, API integration, and Docker.
+
+### Key Features
+
+1. **User-Friendly Design**
+
+- Crafted wireframes and designed the app interface, ensuring an intuitive and aesthetically pleasing user experience.
+- React components like Header and GradesPage contribute to a clean and structured frontend.
+
+2. **Dynamic Grade Scale**
+
+- Utilized an OpenAPI specification to define a robust API structure for retrieving the latest grade scale data.
+- The getGradeScale function in the backend ensures accurate and up-to-date information for users.
+
+3. **Technological Toolbox**
+
+- Built the core of the application with JavaScript and React, blending functionality with a polished look.
+- Employed a PostgreSQL database managed through the `db.js` module, enhancing the backend capabilities.
+- Dockerized the application, streamlining the deployment process and ensuring consistency across different environments.
+
+### Learning Journey:
+
+In the process of creating My Grade Calculator, I embarked on a multifaceted learning journey. From infusing a personal touch into the design, where wireframes were meticulously crafted, and the fusion of functionality and aesthetics was explored, to mastering React by developing interactive user interfaces, each step brought hands-on experience. Delving into API integration, I defined an OpenAPI specification and implemented the `getGradeScale` function, demonstrating proficiency in API design. Managing a PostgreSQL database provided insights into backend data intricacies, while Dockerisation streamlined deployment for consistent and reliable application scaling. Amidst these technical pursuits, I honed problem-solving skills, tackling challenges to ensure a seamless user experience, and making design decisions that overcame obstacles in the development process. This journey symbolises not just coding milestones but a comprehensive growth in skill, adaptability, and creativity.
