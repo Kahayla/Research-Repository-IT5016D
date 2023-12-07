@@ -16,7 +16,7 @@ Here you will find a list of projects and exercise repository links I have done 
 
 ![Keyme Shop](images/Movie-Chatbot.png)
 
-**To see the Chatbot Repository click [here](https://github.com/Developers-Institute-Classrooms/01-project---build-a-chatbot-Kahayla)**
+**To see the Chatbot Repository click [here](https://github.com/Kahayla/build-a-chatbot)**
 
 Deployed [Website](https://build-a-chatbot-t46u.onrender.com)
 
@@ -66,7 +66,7 @@ Through the creation of Archie, I honed my skills in **JavaScript**, **React**, 
 
 ![Keyme Shop](images/Keyme-shop.png)
 
-**To see the Keyme Shop Repository click [here](https://github.com/Developers-Institute-Classrooms/01-project---online-shop-individual-Kahayla)**
+**To see the Keyme Shop Repository click [here](https://github.com/Kahayla/keyme-online-shop)**
 
 Deployed [Website](https://react-online-shop-keyme-shop.onrender.com)
 
@@ -246,7 +246,7 @@ This project served as an immersive learning experience, allowing me to dive int
 
   - Modular Styling: Styles for each selector focus on a specific responsibility, adhering to the Single Responsibility Principle. For instance, styles for reservations, restaurants, and media queries are organized separately.
 
-  ### Design Patterns:
+### Design Patterns:
 
 - **Flexbox for Layout:**
 

@@ -6,6 +6,7 @@ Here is a list of inspired codes that influenced me throughhout my coding Journe
 
 1. Building a JavaScript Chatbot Inspired Codes
 2. Exploring ReactJS Hooks: `useState` and `useEffect`
+3. Navigating Database Queries in Middleware
 
 ## 1. Building a JavaScript Chatbot Inspired Codes
 
@@ -66,7 +67,7 @@ const getBotReply = (msg) => {
 };
 ```
 
-> _This code is directly from my chatbot repository_
+> _This code is directly from my [chatbot repository](https://github.com/Kahayla/build-a-chatbot/blob/main/01-project---build-a-chatbot-Kahayla-main%202/Submission/script.js)_
 
 ### Findings
 
@@ -100,7 +101,7 @@ let path;
 let name;
 ```
 
-> _This code is directly from my chatbot repository_
+> _This code is directly from my [chatbot repository](https://github.com/Kahayla/build-a-chatbot/blob/main/01-project---build-a-chatbot-Kahayla-main%202/Submission/script.js)_
 
 ## 2. Exploring ReactJS Hooks: `useState` and `useEffect`
 
@@ -116,7 +117,7 @@ In the provided resource, a simple example demonstrates the usage of the `useEff
 
 ![Website info screenshot](images/Basic-usage-of-useEffect.png)
 
-> \_Screen shot inspired code from [codedamn](https://codedamn.com/news/reactjs/usestate-and-useeffect-hooks)
+> _Screen shot inspired code from [codedamn](https://codedamn.com/news/reactjs/usestate-and-useeffect-hooks)_
 
 ### Implementation
 
@@ -138,7 +139,11 @@ const getProducts = async () => {
 };
 
 export { getProducts };
+```
 
+> _This code is directly from my [keyme online shop repository](https://github.com/Kahayla/keyme-online-shop/blob/main/01-project---online-shop-individual-Kahayla-main/src/services/getProducts.js)_
+
+```javascript
 App.js;
 
 // The function that makes the fetch request to the Products API
@@ -177,4 +182,101 @@ function App() {
 }
 ```
 
-> _This code is directly from my keyme online shop repository_
+> _This code is directly from my [keyme online shop repository](https://github.com/Kahayla/keyme-online-shop/blob/main/01-project---online-shop-individual-Kahayla-main/src/App.js)_
+
+## 3. Navigating Database Queries in Middleware
+
+**Source:** [DZone - The Complete Tutorial on the Top 5 Ways to Query Your PostgreSQL Database in Node.js](https://dzone.com/articles/the-complete-tutorial-on-the-top-5-ways-to-query-y)
+
+### Overview
+
+When developing applications, the common practice is to connect them to external APIs, leveraging data managed on the API's end. However, when the requirement arose to set up my own database, I found myself uncertain about connecting my middleware to query the database effectively and retrieve the necessary data for display in my app.
+
+### Findings
+
+In the process of addressing this challenge, I explored the usage of the 'pg' package, which facilitates sending SQL commands to the database. The key insight was employing the db.query function to execute SQL commands, enabling the definition of the desired data to be retrieved.
+
+![Webiste info screenshot](images/dzone-site.png)
+
+> _Screen shot inspired code from [dzone](https://dzone.com/articles/the-complete-tutorial-on-the-top-5-ways-to-query-y)_
+
+### Implementation
+
+In my application, I utilised the following code:
+
+```javascript
+Copy code
+const db = require("../db");
+
+const getProducts = async () => {
+  try {
+    const result = await db.query(
+      `SELECT
+          p.id,
+          p.name,
+          p.description,
+          p.price,
+          pc.name AS "categoryName",
+          pi.name AS "imageName",
+          pi.description AS "imageDescription"
+        FROM product p
+        LEFT JOIN product_category pc ON p.product_category_id = pc.id
+        LEFT JOIN product_image pi ON p.product_image_id = pi.id
+        ORDER BY p.id
+      `
+    );
+    return result.rows;
+  } catch (error) {
+    throw Error(error);
+  }
+};
+
+const getPagedProductsSQL = `
+SELECT
+    p.id,
+    p.name,
+    p.description,
+    p.price,
+    pc.name AS "categoryName",
+    pi.name AS "imageName",
+    pi.description AS "imageDescription",
+    pd.value AS "discountValue",
+    dt.type AS "discountTypeName"
+FROM product p
+LEFT JOIN product_category pc ON p.product_category_id = pc.id
+LEFT JOIN product_image pi ON p.product_image_id = pi.id
+LEFT JOIN product_discount pd ON p.id = pd.product_id
+LEFT JOIN discount_type dt ON dt.id = pd.discount_type_id
+ORDER BY p.id
+LIMIT $1 OFFSET $2;
+`;
+
+const getPagedProducts = async (limit, page) => {
+  try {
+    if (page <= 0 || !page) {
+      throw new Error("Page number must be greater than 0");
+    }
+
+    const offset = limit * (page - 1);
+    const { rows } = await db.query(getPagedProductsSQL, [limit, offset]);
+    return rows;
+  } catch (error) {
+    throw Error(error);
+  }
+};
+
+const getTotalProducts = async () => {
+  try {
+    const result = await db.query(`SELECT COUNT(*) as total FROM product`);
+    return result.rows[0].total;
+  } catch (error) {
+    throw new Error(`Error fetching total products: ${error.message}`);
+  }
+};
+
+module.exports = { getPagedProducts, getProducts, getTotalProducts };
+```
+
+> _This code is directly from my cat couture repository_
+
+This code is based on the example, utilising middleware to directly query the database with SQL. This approach aligns with my preference as it allows for data validation directly via SQL commands in PostgreSQL. Additionally, it streamlines the integration between an app's database and frontend, simplifying the development process.
