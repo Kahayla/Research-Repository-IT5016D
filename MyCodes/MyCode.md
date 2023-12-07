@@ -26,7 +26,7 @@ As a newcomer to the world of development, this project allowed me to grasp fund
 
 ### Features
 
-Archie is not your ordinary chat bot; it's your virtual movie buddy! The bot kicks off the conversation by asking for your name, making the interaction personalized from the start. But that's just the beginning – Archie guides users through a series of questions to understand their movie preferences and then cleverly suggests the perfect animated movie.
+Archie is not your ordinary chat bot; it's your virtual movie buddy! The bot kicks off the conversation by asking for your name, making the interaction personalised from the start. But that's just the beginning – Archie guides users through a series of questions to understand their movie preferences and then cleverly suggests the perfect animated movie.
 
 - **Dynamic Conversations:** Archie dynamically adjusts its conversation flow based on user responses.
 - **A Touch of Humor:** Expect a dash of humor in Archie's responses, making the movie selection process entertaining.
@@ -48,7 +48,7 @@ Through the creation of Archie, I honed my skills in **JavaScript**, **React**, 
 
 - **Consistency:**
 
-  - The consistent use of font families, colors, and styling for user and bot messages (.chat-item-user and .chat-item-bot) promotes a cohesive and harmonious user interface. Consistency is a crucial design principle for a unified user experience.
+  - The consistent use of font families, colours, and styling for user and bot messages (.chat-item-user and .chat-item-bot) promotes a cohesive and harmonious user interface. Consistency is a crucial design principle for a unified user experience.
 
 - **Readability and Accessibility:**
   - The chosen font sizes and styles contribute to readability. The use of relative units and a readable font size (font-size: 1.2em;) ensures that the text is accessible and legible.
@@ -118,15 +118,15 @@ The process of crafting Keyme Shop taught me the importance of attention to deta
 
 - **Single Responsibility Principle:**
 
-  - The CSS rules for each selector seem to focus on a specific responsibility, following the Single Responsibility Principle. For instance, styles for the product grid, buttons, and typography are organized separately, contributing to maintainability.
+  - The CSS rules for each selector seem to focus on a specific responsibility, following the Single Responsibility Principle. For instance, styles for the product grid, buttons, and typography are organised separately, contributing to maintainability.
 
 - **Media Query Breakpoints (Device-Agnostic Design):**
 
-  - The use of media queries with breakpoints (@media only screen and (min-width: 40rem), @media only screen and (min-width: 62rem)) is a design pattern for device-agnostic design. It ensures that the application is optimized for various devices by adjusting styles based on screen width.
+  - The use of media queries with breakpoints (@media only screen and (min-width: 40rem), @media only screen and (min-width: 62rem)) is a design pattern for device-agnostic design. It ensures that the application is optimised for various devices by adjusting styles based on screen width.
 
 - **Card-Like Design:**
 
-  - The styling of the .product-grid with a background color, padding, and border-radius creates a card-like design pattern. Each product is visually contained within a distinct card, providing a structured and organized presentation.
+  - The styling of the .product-grid with a background colour, padding, and border-radius creates a card-like design pattern. Each product is visually contained within a distinct card, providing a structured and organised presentation.
 
 - **Hover Effects for Interaction:**
 
@@ -151,14 +151,14 @@ Welcome to My Grade Calculator, a pivotal project in my coding journey during my
 
 2. **Dynamic Grade Scale**
 
-   - Utilized an OpenAPI specification to define a robust API structure for retrieving the latest grade scale data.
+   - Utilised an OpenAPI specification to define a robust API structure for retrieving the latest grade scale data.
    - The getGradeScale function in the backend ensures accurate and up-to-date information for users.
 
 3. **Technological Toolbox**
 
    - Built the core of the application with JavaScript and React, blending functionality with a polished look.
    - Employed a PostgreSQL database managed through the `db.js` module, enhancing the backend capabilities.
-   - Dockerized the application, streamlining the deployment process and ensuring consistency across different environments.
+   - Dockerised the application, streamlining the deployment process and ensuring consistency across different environments.
 
 ### Learning Journey:
 
@@ -168,7 +168,7 @@ In the process of creating My Grade Calculator, I embarked on a multifaceted lea
 
 - **Consistency:**
 
-  - Consistent use of font family ("Press Start 2P", cursive;) and color schemes throughout the application (#3b0542, #ecdcf4, etc.) creates a cohesive and visually appealing design. Consistency is crucial for establishing a unified user interface.
+  - Consistent use of font family ("Press Start 2P", cursive;) and colour schemes throughout the application (#3b0542, #ecdcf4, etc.) creates a cohesive and visually appealing design. Consistency is crucial for establishing a unified user interface.
 
 - **Hierarchy:**
 
@@ -180,13 +180,13 @@ In the process of creating My Grade Calculator, I embarked on a multifaceted lea
 
 - **Contrast**:
 
-  - The contrast between background colors and text ensures readability and accessibility. For instance, the use of light text on a dark background (#3b0542 on the header) enhances visibility and readability.
+  - The contrast between background colours and text ensures readability and accessibility. For instance, the use of light text on a dark background (#3b0542 on the header) enhances visibility and readability.
 
 ### Design Patterns:
 
 - **Single Responsibility Principle:**
 
-  - Styles for each selector seem to focus on a specific responsibility, adhering to the Single Responsibility Principle. For instance, styles for the header, labels, form elements, and media queries are organized separately, contributing to maintainability.
+  - Styles for each selector seem to focus on a specific responsibility, adhering to the Single Responsibility Principle. For instance, styles for the header, labels, form elements, and media queries are organised separately, contributing to maintainability.
 
 - **Box Model:**
 
@@ -202,7 +202,7 @@ In the process of creating My Grade Calculator, I embarked on a multifaceted lea
 
 - **Button Styling:**
 
-  - The styling of the .mainFormButton class as a button with a distinctive background color, border-radius, and hover effects adheres to the design pattern for interactive elements. This pattern improves user engagement and provides visual feedback.
+  - The styling of the .mainFormButton class as a button with a distinctive background colour, border-radius, and hover effects adheres to the design pattern for interactive elements. This pattern improves user engagement and provides visual feedback.
 
 ## Project: Reservation System with Authentication
 
@@ -212,13 +212,13 @@ In the process of creating My Grade Calculator, I embarked on a multifaceted lea
 
 > _Note: I do not have the rights to change privacy of this repository_
 
-In the context of my journey at Developers Institute, the Reservation System with Authentication project stands out as a pivotal exploration into the realms of authentication, authorization, and backend development. The primary objective was to construct a robust reservation system that not only facilitated booking reservations at various restaurants but also ensured secure and authorized access through user authentication.
+In the context of my journey at Developers Institute, the Reservation System with Authentication project stands out as a pivotal exploration into the realms of authentication, authorization, and backend development. The primary objective was to construct a robust reservation system that not only facilitated booking reservations at various restaurants but also ensured secure and authorised access through user authentication.
 
 ### Features
 
 - **Authentication and Authorization:**
   - Implemented secure user authentication using `express-oauth2-jwt-bearer`.
-  - Ensured authorized API access, allowing users to seamlessly interact with the reservation system.
+  - Ensured authorzised API access, allowing users to seamlessly interact with the reservation system.
 - **API Integration:**
 
   - Adopted the `OpenAPI` specification to design a structured and reliable API.
@@ -236,7 +236,7 @@ This project served as an immersive learning experience, allowing me to dive int
 
 - **Consistency:**
 
-  - Application-Wide Styling: Consistent use of font family (Helvetica, Arial, sans-serif) and color schemes (#2b2c34) throughout the application ensures a harmonious and unified visual experience for users.
+  - Application-Wide Styling: Consistent use of font family (Helvetica, Arial, sans-serif) and colour schemes (#2b2c34) throughout the application ensures a harmonious and unified visual experience for users.
 
 - **Responsive Design:**
 
@@ -248,13 +248,13 @@ This project served as an immersive learning experience, allowing me to dive int
 
 - **Single Responsibility Principle:**
 
-  - Modular Styling: Styles for each selector focus on a specific responsibility, adhering to the Single Responsibility Principle. For instance, styles for reservations, restaurants, and media queries are organized separately.
+  - Modular Styling: Styles for each selector focus on a specific responsibility, adhering to the Single Responsibility Principle. For instance, styles for reservations, restaurants, and media queries are organised separately.
 
 ### Design Patterns:
 
 - **Flexbox for Layout:**
 
-  - Reservation List: The use of Flexbox (display: flex;, flex-direction, etc.) for the reservation list layout enhances flexibility, making it easier to align and organize elements, especially evident in tablet view adjustments.
+  - Reservation List: The use of Flexbox (display: flex;, flex-direction, etc.) for the reservation list layout enhances flexibility, making it easier to align and organise elements, especially evident in tablet view adjustments.
 
 - **Card Design Pattern:**
 
@@ -283,7 +283,7 @@ Stepping into a pivotal project for "Cat Couture," an online cat fashion shop, I
 - **Pagination Feature:**
 
   - Integrated pagination controls into the product page, enabling customers to navigate the growing variety of cat costumes effortlessly.
-  - Utilized React components and state management to ensure a smooth and responsive user experience.
+  - Utilised React components and state management to ensure a smooth and responsive user experience.
 
 - **Administrator Dashboard:**
 
@@ -293,7 +293,7 @@ Stepping into a pivotal project for "Cat Couture," an online cat fashion shop, I
 
 - **Technical Debt Resolution:**
   - Addressed existing technical debt in both the client and server components.
-  - Refactored and optimized code in the server's product repository, introducing a function for fetching paged products.
+  - Refactored and optimised code in the server's product repository, introducing a function for fetching paged products.
 
 ### Learning Journey
 
@@ -307,7 +307,7 @@ This project delved into advanced React functionalities, authentication mechanis
 
 - **Colour Harmony:**
 
-  - Colour Scheme: The color scheme, including shades of green (#404e4c), white, and shades of yellow (rgba(233, 180, 82, 0.997)), creates a visually pleasing and harmonious design, enhancing readability and brand identity.
+  - Colour Scheme: The colour scheme, including shades of green (#404e4c), white, and shades of yellow (rgba(233, 180, 82, 0.997)), creates a visually pleasing and harmonious design, enhancing readability and brand identity.
 
 - **Responsive Scaling:**
 
@@ -321,11 +321,11 @@ This project delved into advanced React functionalities, authentication mechanis
 
 - **Card Design Pattern:**
 
-  - Product Card: The use of a card design pattern for product items (list-style: none;, .card, .product-image, h2, p, .button) organizes information in a visually appealing and structured manner.
+  - Product Card: The use of a card design pattern for product items (list-style: none;, .card, .product-image, h2, p, .button) organises information in a visually appealing and structured manner.
 
 - **Grid Layout:**
 
-  - Main Content Grid: Implementation of a grid layout (display: grid;, grid-template-columns, grid-gap) for the main content (.main-content) optimizes space and arrangement, especially visible in larger screen sizes.
+  - Main Content Grid: Implementation of a grid layout (display: grid;, grid-template-columns, grid-gap) for the main content (.main-content) optimises space and arrangement, especially visible in larger screen sizes.
 
 - **Button Hover Effect:**
 
@@ -333,7 +333,7 @@ This project delved into advanced React functionalities, authentication mechanis
 
 - **Table Styling:**
 
-  - Table Design: The styling of tables (width, border-collapse, border-spacing, border) ensures a clean and organized presentation of tabular data, contributing to improved readability.
+  - Table Design: The styling of tables (width, border-collapse, border-spacing, border) ensures a clean and organised presentation of tabular data, contributing to improved readability.
 
 ## Project: LiftLog Weightifing App
 
@@ -350,12 +350,12 @@ LiftLog, my capstone project at Whitecliffe, stands as a testament to my journey
    - Empowers users to track their progress and maintain a comprehensive log of their fitness journey.
 2. **Exercise Options**
    - Access a diverse range of pre-defined exercises, streamlining the process of building a workout plan.
-   - Personalize your fitness routine by adding custom exercises that align with individual fitness goals.
+   - Personalise your fitness routine by adding custom exercises that align with individual fitness goals.
 3. **View Session History**
    - Navigate and track your workout history effortlessly.
    - Edit sessions to reflect accurate progress over time, ensuring a dynamic and adaptable fitness log.
 4. **User-Friendly Interface**
-   - LiftLog prioritizes simplicity and ease of use, providing an intuitive interface for quick and efficient session logging.
+   - LiftLog prioritises simplicity and ease of use, providing an intuitive interface for quick and efficient session logging.
    - Streamlined navigation ensures that users can focus on their workout rather than grappling with complex app mechanics.
 
 ### Learning Journey
@@ -386,7 +386,7 @@ This capstone project stands as my magnum opus at Whitecliffe, representing not 
 
 - **Card Design for Sessions:**
 
-  - Session Display: Each logged session is presented in a card format (`<div className="card col-12 col-md-6 p-0">`), offering a clear and organized way to showcase session information, including an option to edit.
+  - Session Display: Each logged session is presented in a card format (`<div className="card col-12 col-md-6 p-0">`), offering a clear and organised way to showcase session information, including an option to edit.
 
 - **Responsive Layout:**
 
@@ -410,10 +410,10 @@ The Help Desk Ticket Prototype System, developed as my Software Development proj
    - Log new tickets seamlessly, providing essential details such as name, email, and description.
    - Update ticket status, respond to user queries, and manage the entire ticket lifecycle.
 2. **User-Friendly Command Line Interface**
-   - Crafted a console-based interface that prioritizes simplicity and ease of use.
+   - Crafted a console-based interface that prioritises simplicity and ease of use.
    - Intuitive commands and responses make ticket management efficient without the need for a graphical interface.
 3. **Ticket Statistics and Dashboard**
-   - Track and analyze ticket statistics, including total tickets, resolved tickets, and those awaiting responses.
+   - Track and analyse ticket statistics, including total tickets, resolved tickets, and those awaiting responses.
    - Access a comprehensive dashboard for an overview of the entire ticket system.
 
 ### Learning Journey
@@ -466,4 +466,4 @@ Embarking on my Python journey, this project served as a gateway to understandin
 
 - **User Interface (UI) Design Principle:**
 
-  - This is a design principle, though it's more loosely defined. It emphasizes creating user interfaces that are clear, consistent, and easy to understand.
+  - This is a design principle, though it's more loosely defined. It emphasises creating user interfaces that are clear, consistent, and easy to understand.

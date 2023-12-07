@@ -32,7 +32,7 @@ The example app, comprising standard `index.html` and `index.css` files, feature
 
 ### Implementation
 
-In my chatbot app, I applied lessons from the example code. I utilized a numbering system and conditions to track the user's progress. Leveraging React, I enhanced UI interaction. Below is a snippet demonstrating conditional responses based on user input:
+In my chatbot app, I applied lessons from the example code. I utilised a numbering system and conditions to track the user's progress. Leveraging React, I enhanced UI interaction. Below is a snippet demonstrating conditional responses based on user input:
 
 ```javascript
 const getBotReply = (msg) => {
