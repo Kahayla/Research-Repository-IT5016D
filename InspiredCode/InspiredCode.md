@@ -2,6 +2,11 @@
 
 Here is a list of inspired codes that influenced me throughhout my coding Journey.
 
+### Overview
+
+1. Building a JavaScript Chatbot Inspired Codes
+2. Exploring ReactJS Hooks: `useState` and `useEffect`
+
 ## 1. Building a JavaScript Chatbot Inspired Codes
 
 **Source:** [HTML Goodies - Basic Chatbot in JavaScript](https://www.htmlgoodies.com/javascript/basic-chatbot-in-javascript/)
@@ -140,14 +145,11 @@ App.js;
 import { getProducts } from "./services/getProducts";
 
 function App() {
-  // use the products variable to read all of your products
-  // and display them on your page
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
     const loadData = async () => {
       const products = await getProducts();
-      //console.log(products);
       setProducts(products);
     };
     loadData();
@@ -161,7 +163,6 @@ function App() {
           <h2>{product.name}</h2>
           <p className="description">{product.description}</p>
           <p className="price">${product.prices[0].unit_amount / 100}</p>
-          {/* I did have the following code in place "<button onClick={checkout(product.prices[0].id)}>Buy Now</button>" However the function was always running immediately, so I used callback-function which I found online, however I still don't understand why my first solution didn't work*/}
           <button
             onClick={() => {
               checkout(product.prices[0].id);

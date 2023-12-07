@@ -7,8 +7,10 @@ Here you will find a list of projects and exercise repository links I have done 
 1. Project: Movie Recommender Chat Bot (Archie)
 2. Project: Keyme Online Shop
 3. Project: Grade Scale Calculator
-4. Project: LiftLog Weightifing App
-5. Project: Help Desk Tciketing System Prototype
+4. Project: Reservation System with Authentication
+5. Project: Cat Couture
+6. Project: LiftLog Weightifing App
+7. Project: Help Desk Tciketing System Prototype
 
 ## Project: Movie Recommender Chat Bot (Archie)
 
@@ -68,7 +70,7 @@ The process of crafting Keyme Shop taught me the importance of attention to deta
 
 Welcome to My Grade Calculator, a pivotal project in my coding journey during my time with Developers Institute. This personalised endeavor allowed me to explore the intricacies of building a grade calculator from scratch, showcasing my growing expertise in JavaScript, React, API integration, and Docker.
 
-### Key Features
+### Features
 
 1. **User-Friendly Design**
 
@@ -90,6 +92,61 @@ Welcome to My Grade Calculator, a pivotal project in my coding journey during my
 
 In the process of creating My Grade Calculator, I embarked on a multifaceted learning journey. From infusing a personal touch into the design, where wireframes were meticulously crafted, and the fusion of functionality and aesthetics was explored, to mastering React by developing interactive user interfaces, each step brought hands-on experience. Delving into API integration, I defined an OpenAPI specification and implemented the `getGradeScale` function, demonstrating proficiency in API design. Managing a PostgreSQL database provided insights into backend data intricacies, while Dockerisation streamlined deployment for consistent and reliable application scaling. Amidst these technical pursuits, I honed problem-solving skills, tackling challenges to ensure a seamless user experience, and making design decisions that overcame obstacles in the development process. This journey symbolises not just coding milestones but a comprehensive growth in skill, adaptability, and creativity.
 
+## Project: Reservation System with Authentication
+
+![Reservationizr App](images/Reservationizr.png)
+
+**To see the Reservationizr Repository click [here](https://github.com/Developers-Institute-Classrooms/02-project---reservationizr-app-part-2---manage-reservations-Kahayla)**
+
+In the context of my journey at Developers Institute, the Reservation System with Authentication project stands out as a pivotal exploration into the realms of authentication, authorization, and backend development. The primary objective was to construct a robust reservation system that not only facilitated booking reservations at various restaurants but also ensured secure and authorized access through user authentication.
+
+### Features
+
+- **Authentication and Authorization:**
+  - Implemented secure user authentication using `express-oauth2-jwt-bearer`.
+  - Ensured authorized API access, allowing users to seamlessly interact with the reservation system.
+- **API Integration:**
+
+  - Adopted the `OpenAPI` specification to design a structured and reliable API.
+  - Implemented the `getGradeScale` function in the backend, enabling accurate information retrieval for users.
+
+- **Backend Development:**
+  - Leveraged `Express.js` and `MongoDB` for robust backend development.
+  - Created controllers to manage restaurant and reservation-related operations, enhancing the system's functionality.
+
+### Learning Journey
+
+This project served as an immersive learning experience, allowing me to dive into the intricate aspects of authentication, API integration, and backend development. Crafting wireframes and designing user interfaces provided insights into creating user-friendly designs. The fusion of functionality and aesthetics was explored, contributing to a comprehensive growth in skills, adaptability, and creativity. The journey involved delving into API integration, defining OpenAPI specifications, and implementing backend functionalities like the `getGradeScale` function. Additionally, the management of a MongoDB database and the Dockerization of the application exemplified the practical application of theoretical knowledge. Throughout the journey, problem-solving skills were honed, overcoming challenges to ensure a seamless user experience and making informed design decisions that propelled the project forward.
+
+## Project: Cat Couture
+
+![Cat Couture App](images/Cat-couture.png)
+
+**To see the Reservationizr Repository click [here](https://github.com/Developers-Institute-Classrooms/03-project---cat-couture-Kahayla)**
+
+Stepping into a pivotal project for "Cat Couture," an online cat fashion shop, I was entrusted with enriching the user experience using React and authentication. The key tasks involved implementing a pagination feature for customers to navigate the expanding costume collection and creating an administrator area with insights into product categories and promotional items. The project aimed to resolve existing technical debt while ensuring a seamless and secure shopping environment.
+
+### Features
+
+- **Pagination Feature:**
+
+  - Integrated pagination controls into the product page, enabling customers to navigate the growing variety of cat costumes effortlessly.
+  - Utilized React components and state management to ensure a smooth and responsive user experience.
+
+- **Administrator Dashboard:**
+
+  - Implemented an administrator login area to provide key insights.
+  - Displays the number of cat costumes in each product category, aiding administrators in managing inventory effectively.
+  - Showcases the count of products currently on promotion, facilitating targeted marketing strategies.
+
+- **Technical Debt Resolution:**
+  - Addressed existing technical debt in both the client and server components.
+  - Refactored and optimized code in the server's product repository, introducing a function for fetching paged products.
+
+### Learning Journey
+
+This project delved into advanced React functionalities, authentication mechanisms, and backend optimizations. Crafting pagination controls offered hands-on experience with React state and routing. The creation of an administrator dashboard required integration with authentication processes, ensuring secure access. Tackling technical debt honed problem-solving skills, fostering an environment of code cleanliness and efficiency. The journey encapsulated not just the implementation of features but a holistic understanding of enhancing user interactions, securing sensitive areas, and refining the codebase for a sustainable and scalable solution.
+
 ## Project: LiftLog Weightifing App
 
 ![LiftLog App](images/LiftLog-AddSession-Page.png)
@@ -98,7 +155,7 @@ In the process of creating My Grade Calculator, I embarked on a multifaceted lea
 
 LiftLog, my capstone project at Whitecliffe, stands as a testament to my journey in designing and developing a user-friendly app tailored for gym lovers. Serving as a solution for those passionate about fitness, LiftLog simplifies the weight logging process, ensuring a seamless experience for users to record their workout sessions.
 
-### Key Features
+### Features
 
 1. **Session Logging**
    - Record detailed workout sessions, capturing essential information like date, exercise, reps, sets, and weight.
