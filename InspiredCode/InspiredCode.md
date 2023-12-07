@@ -277,6 +277,6 @@ const getTotalProducts = async () => {
 module.exports = { getPagedProducts, getProducts, getTotalProducts };
 ```
 
-> _This code is directly from my cat couture repository_
+> _This code is directly from my cat couture repository_ > _Note: I dont have the rights to change privacy of this repository_
 
 This code is based on the example, utilising middleware to directly query the database with SQL. This approach aligns with my preference as it allows for data validation directly via SQL commands in PostgreSQL. Additionally, it streamlines the integration between an app's database and frontend, simplifying the development process.

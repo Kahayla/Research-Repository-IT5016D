@@ -138,6 +138,8 @@ The process of crafting Keyme Shop taught me the importance of attention to deta
 
 **To see the Grade Scale Caluclator Repository click [here](https://github.com/Developers-Institute-Classrooms/03-project---grade-calculator-Kahayla)**
 
+> _Note: I do not have the rights to change privacy of this repository_
+
 Welcome to My Grade Calculator, a pivotal project in my coding journey during my time with Developers Institute. This personalised endeavor allowed me to explore the intricacies of building a grade calculator from scratch, showcasing my growing expertise in JavaScript, React, API integration, and Docker.
 
 ### Features
@@ -208,6 +210,8 @@ In the process of creating My Grade Calculator, I embarked on a multifaceted lea
 
 **To see the Reservationizr Repository click [here](https://github.com/Developers-Institute-Classrooms/02-project---reservationizr-app-part-2---manage-reservations-Kahayla)**
 
+> _Note: I do not have the rights to change privacy of this repository_
+
 In the context of my journey at Developers Institute, the Reservation System with Authentication project stands out as a pivotal exploration into the realms of authentication, authorization, and backend development. The primary objective was to construct a robust reservation system that not only facilitated booking reservations at various restaurants but also ensured secure and authorized access through user authentication.
 
 ### Features
@@ -269,6 +273,8 @@ This project served as an immersive learning experience, allowing me to dive int
 ![Cat Couture App](images/Cat-couture.png)
 
 **To see the Reservationizr Repository click [here](https://github.com/Developers-Institute-Classrooms/03-project---cat-couture-Kahayla)**
+
+> _Note: I do not have the rights to change privacy of this repository_
 
 Stepping into a pivotal project for "Cat Couture," an online cat fashion shop, I was entrusted with enriching the user experience using React and authentication. The key tasks involved implementing a pagination feature for customers to navigate the expanding costume collection and creating an administrator area with insights into product categories and promotional items. The project aimed to resolve existing technical debt while ensuring a seamless and secure shopping environment.
 
