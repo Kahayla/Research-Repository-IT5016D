@@ -14,7 +14,7 @@ Here is a list of interesting codes that I found helpful or rather interesting t
 
 ### Overview
 
-In the realm of my chatbot project, I encountered a unique challenge—implementing a 'special functionality' that involved selecting random values from an array. Delving into the vast world of JavaScript, I stumbled upon an insightful solution on Stack Overflow. The code snippet showcased the utilization of `Math.random` to extract a random value from an array, laying the foundation for a feature-rich chatbot.
+In the realm of my chatbot project, I encountered a unique challenge—implementing a 'special functionality' that involved selecting random values from an array. Delving into the vast world of JavaScript, I stumbled upon an insightful solution on Stack Overflow. The code snippet showcased the utilisation of `Math.random` to extract a random value from an array, laying the foundation for a feature-rich chatbot.
 
 ### Implementaion
 
@@ -72,7 +72,7 @@ Source: [Giphy API](https://developers.giphy.com/)
 
 ### Implementation and Security Measures
 
-The article underlines my introduction to URL parameters as a means of filtering and focusing on specific data within the API responses. Additionally, the incorporation of API keys is highlighted, emphasizing the importance of securing API endpoints.
+The article underlines my introduction to URL parameters as a means of filtering and focusing on specific data within the API responses. Additionally, the incorporation of API keys is highlighted, emphasising the importance of securing API endpoints.
 
 ### My Giphy App Sandbox
 
