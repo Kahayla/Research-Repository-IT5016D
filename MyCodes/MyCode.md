@@ -84,7 +84,7 @@ Each keyboard and item in Keyme Shop has a story, and I had the privilege of nam
 
 ### Learning Journey
 
-Keyme Shop is a reflection of my journey at Developers Institute. This project allowed me to delve into the world of e-commerce, building my own online shop from the ground up. Through its development, I gained invaluable experience in utilizing ReactJS for a responsive and interactive front-end, integrating secure payment processing with Stripe, and managing APIs with Begin.
+Keyme Shop is a reflection of my journey at Developers Institute. This project allowed me to delve into the world of e-commerce, building my own online shop from the ground up. Through its development, I gained invaluable experience in utilising ReactJS for a responsive and interactive front-end, integrating secure payment processing with Stripe, and managing APIs with Begin.
 
 The process of crafting Keyme Shop taught me the importance of attention to detail, the significance of user experience, and the art of blending aesthetics with functionality. Building an online shop from scratch was not just a technical endeavor; it was a journey of creativity, problem-solving, and continuous learning.
 
@@ -104,17 +104,17 @@ The process of crafting Keyme Shop taught me the importance of attention to deta
 
 - **Typography Hierarchy:**
 
-  - The variation in font sizes (h1, p, etc.) establishes a clear typography hierarchy, contributing to better content organization and readability. The font sizes are adjusted responsively based on the screen width, emphasizing a thoughtful approach to typography.
+  - The variation in font sizes (h1, p, etc.) establishes a clear typography hierarchy, contributing to better content organisation and readability. The font sizes are adjusted responsively based on the screen width, emphasising a thoughtful approach to typography.
 
 - **Containerisation:**
 
-  - The use of a container (max-width: 75rem;, margin: 0 auto;) for content aligns with the containerization principle. It helps control the maximum width of content and centers it on the page, ensuring a visually appealing and manageable layout.
+  - The use of a container (max-width: 75rem;, margin: 0 auto;) for content aligns with the containerisation principle. It helps control the maximum width of content and centers it on the page, ensuring a visually appealing and manageable layout.
 
 ### Design Patterns:
 
 - **Grid Layout:**
 
-  - The implementation of a grid layout using CSS Grid (display: grid;, grid-template-columns, etc.) is a design pattern that enhances the organization of content. It simplifies the placement of elements, such as product grids, in a visually appealing manner.
+  - The implementation of a grid layout using CSS Grid (display: grid;, grid-template-columns, etc.) is a design pattern that enhances the organisation of content. It simplifies the placement of elements, such as product grids, in a visually appealing manner.
 
 - **Single Responsibility Principle:**
 
@@ -172,7 +172,7 @@ In the process of creating My Grade Calculator, I embarked on a multifaceted lea
 
 - **Hierarchy:**
 
-  - The application demonstrates a clear hierarchy in typography, with variations in font sizes for different elements (header, label, .mainFormButton, etc.). This hierarchy aids users in understanding the importance and organization of information on the page.
+  - The application demonstrates a clear hierarchy in typography, with variations in font sizes for different elements (header, label, .mainFormButton, etc.). This hierarchy aids users in understanding the importance and organisation of information on the page.
 
 - **Responsive Design:**
 
@@ -194,7 +194,7 @@ In the process of creating My Grade Calculator, I embarked on a multifaceted lea
 
 - **Flexbox for Layout:**
 
-  - The use of Flexbox (display: flex;, flex-direction, align-items, etc.) for the main form layout contributes to a flexible and responsive design. It allows for easy alignment and organization of form elements, adapting to different screen sizes.
+  - The use of Flexbox (display: flex;, flex-direction, align-items, etc.) for the main form layout contributes to a flexible and responsive design. It allows for easy alignment and organisation of form elements, adapting to different screen sizes.
 
 - **Typography Emphasis:**
 
@@ -212,13 +212,13 @@ In the process of creating My Grade Calculator, I embarked on a multifaceted lea
 
 > _Note: I do not have the rights to change privacy of this repository_
 
-In the context of my journey at Developers Institute, the Reservation System with Authentication project stands out as a pivotal exploration into the realms of authentication, authorization, and backend development. The primary objective was to construct a robust reservation system that not only facilitated booking reservations at various restaurants but also ensured secure and authorised access through user authentication.
+In the context of my journey at Developers Institute, the Reservation System with Authentication project stands out as a pivotal exploration into the realms of authentication, authorisation, and backend development. The primary objective was to construct a robust reservation system that not only facilitated booking reservations at various restaurants but also ensured secure and authorised access through user authentication.
 
 ### Features
 
-- **Authentication and Authorization:**
+- **Authentication and Authorisation:**
   - Implemented secure user authentication using `express-oauth2-jwt-bearer`.
-  - Ensured authorzised API access, allowing users to seamlessly interact with the reservation system.
+  - Ensured authorised API access, allowing users to seamlessly interact with the reservation system.
 - **API Integration:**
 
   - Adopted the `OpenAPI` specification to design a structured and reliable API.
@@ -230,7 +230,7 @@ In the context of my journey at Developers Institute, the Reservation System wit
 
 ### Learning Journey
 
-This project served as an immersive learning experience, allowing me to dive into the intricate aspects of authentication, API integration, and backend development. Crafting wireframes and designing user interfaces provided insights into creating user-friendly designs. The fusion of functionality and aesthetics was explored, contributing to a comprehensive growth in skills, adaptability, and creativity. The journey involved delving into API integration, defining OpenAPI specifications, and implementing backend functionalities like the `getGradeScale` function. Additionally, the management of a MongoDB database and the Dockerization of the application exemplified the practical application of theoretical knowledge. Throughout the journey, problem-solving skills were honed, overcoming challenges to ensure a seamless user experience and making informed design decisions that propelled the project forward.
+This project served as an immersive learning experience, allowing me to dive into the intricate aspects of authentication, API integration, and backend development. Crafting wireframes and designing user interfaces provided insights into creating user-friendly designs. The fusion of functionality and aesthetics was explored, contributing to a comprehensive growth in skills, adaptability, and creativity. The journey involved delving into API integration, defining OpenAPI specifications, and implementing backend functionalities like the `getGradeScale` function. Additionally, the management of a MongoDB database and the Dockerisation of the application exemplified the practical application of theoretical knowledge. Throughout the journey, problem-solving skills were honed, overcoming challenges to ensure a seamless user experience and making informed design decisions that propelled the project forward.
 
 ### Design Principles:
 
@@ -240,11 +240,11 @@ This project served as an immersive learning experience, allowing me to dive int
 
 - **Responsive Design:**
 
-  - Media Queries: Integration of media queries for different screen sizes (@media (max-width: 47rem), @media (min-width: 48rem)) demonstrates a commitment to responsive design, optimizing the layout and styling for mobile and tablet views.
+  - Media Queries: Integration of media queries for different screen sizes (@media (max-width: 47rem), @media (min-width: 48rem)) demonstrates a commitment to responsive design, optimising the layout and styling for mobile and tablet views.
 
 - **Hierarchy:**
 
-  - Typography Differentiation: Establishes a clear typographic hierarchy with varying font sizes (h1, .reservationName, etc.), aiding in easy comprehension and emphasizing important information.
+  - Typography Differentiation: Establishes a clear typographic hierarchy with varying font sizes (h1, .reservationName, etc.), aiding in easy comprehension and emphasising important information.
 
 - **Single Responsibility Principle:**
 
@@ -297,7 +297,7 @@ Stepping into a pivotal project for "Cat Couture," an online cat fashion shop, I
 
 ### Learning Journey
 
-This project delved into advanced React functionalities, authentication mechanisms, and backend optimizations. Crafting pagination controls offered hands-on experience with React state and routing. The creation of an administrator dashboard required integration with authentication processes, ensuring secure access. Tackling technical debt honed problem-solving skills, fostering an environment of code cleanliness and efficiency. The journey encapsulated not just the implementation of features but a holistic understanding of enhancing user interactions, securing sensitive areas, and refining the codebase for a sustainable and scalable solution.
+This project delved into advanced React functionalities, authentication mechanisms, and backend optimisations. Crafting pagination controls offered hands-on experience with React state and routing. The creation of an administrator dashboard required integration with authentication processes, ensuring secure access. Tackling technical debt honed problem-solving skills, fostering an environment of code cleanliness and efficiency. The journey encapsulated not just the implementation of features but a holistic understanding of enhancing user interactions, securing sensitive areas, and refining the codebase for a sustainable and scalable solution.
 
 ### Design Principles:
 
@@ -436,7 +436,7 @@ Embarking on my Python journey, this project served as a gateway to understandin
 
 - **Command Pattern:**
 
-  - This is a design pattern. It encapsulates a request as an object, thereby allowing for parameterization of clients with different requests, queuing of requests, and logging of the parameters.
+  - This is a design pattern. It encapsulates a request as an object, thereby allowing for parameterisation of clients with different requests, queuing of requests, and logging of the parameters.
 
 - **Iterator Pattern:**
 
